@@ -123,6 +123,6 @@ $('#d100Form').on('submit', function(event){
         let addition = Math.floor(Math.random() * 100 ) + 1
         result += addition
     }
-    $('#d1001Result').text(result)
+    $('#d100Result').text(result)
     console.log(result)
 })
