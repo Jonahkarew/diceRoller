@@ -20,5 +20,9 @@ button{
 
 .diceHeader{
     text-align: center;
-    color: #ffffff;
+    color: #1b2a33;
+}
+
+.col-6{
+    max-height: 250px;;
 }

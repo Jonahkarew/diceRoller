@@ -10,7 +10,7 @@ $('#d2Form').on('submit', function(event){
         let addition = Math.floor(Math.random() * 2 ) + 1
         result += addition
     }
-    $('#d2Result').text(result)
+    $('#d2Result').html(`<h5>${result}</h5>`)
     console.log(result)
 })
 
